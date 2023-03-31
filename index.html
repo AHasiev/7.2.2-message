@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>message</title>
+    <style>
+      div {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form method="get">
+      <div>
+        <label for="message"><i>*Тема письма</i></label
+        ><br />
+        <input type="text" placeholder="Укажите тему" required />
+      </div>
+      <div>
+        <span><i>Ваше имя</i> </span><br />
+        <input type="text" placeholder="Как вас зовут?" />
+      </div>
+      <div>
+        <span><i>*Email</i></span
+        ><br />
+        <input type="text" placeholder="Ваш e-mail" required />
+      </div>
+      <div>
+        <span><i>*Текст сообщения (до 250 символов)</i></span
+        ><br />
+        <textarea
+          name="message"
+          id="1"
+          cols="50"
+          rows="10"
+          placeholder="Введите текст"
+          maxlength="250"
+        >
+        </textarea>
+      </div>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
